@@ -21,6 +21,7 @@ This is a simple yet powerful **To-Do List App** built with React. The app allow
 - **Node.js** and **npm** installed on your machine.
 
 ## Getting Started
+![Screenshot](<todo-list-app/src/assets/Screenshot 2024-09-11 at 4.11.56 PM.png>)
 
 ### 1. Clone the repository
 
