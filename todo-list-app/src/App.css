@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #a2c2e4, #e3f2fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for better contrast */
+  border-radius: 12px;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  transform: perspective(1000px) rotateX(-5deg) rotateY(5deg);
+}
+
+/* Title and description */
+h1 {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Form styling */
+input[type="text"] {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #4a90e2;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #0078d4;
+  outline: none;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #0078d4;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 5px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Button styling within list */
+button.delete {
+  background-color: #d9534f;
+  color: #ffffff;
+}
+
+button.delete:hover {
+  background-color: #c9302c;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}

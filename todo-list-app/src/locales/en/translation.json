@@ -1,0 +1,8 @@
+{
+    "title": "To-Do List",
+    "description": "Manage your tasks effectively",
+    "placeholder": "Enter a new task",
+    "add": "Add Task",
+    "toggle": "Toggle",
+    "delete": "Delete"
+  }
